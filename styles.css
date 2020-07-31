@@ -1,0 +1,76 @@
+.body {
+  background-color: green;
+  text-align: center;
+}
+
+.header {
+  background-image: url("./images/header_img.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+#main-page-title{
+  font-family: sans-serif;
+  font-size: 6em;
+  color: white;
+}
+
+.intro {
+  border: 3px solid black;
+  width: 60%;
+  margin: 1em auto;
+  padding: .5em;
+  background-color: #ca9783;
+  border-radius: .25em;
+}
+
+/* button {
+  background-color: hotpink;
+  padding: .25em;
+  font-size: 1em;
+}
+
+button a {
+  text-decoration: none;
+} */
+
+/* Grand Canyon HTML */
+
+.wrapper{
+  width: 60%;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+.grand-canyon-image{
+  float: left;
+  width: 400px;
+  margin-right: 1em;
+}
+
+.park-info{
+  clear: both
+}
+
+/* Image Gallery */
+
+.image-gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+.gallery-img{
+  width: 100%;
+  border: black 3px solid
+}
+
+.gallery-img:hover{
+  border: red 3px solid
+}
+
+
+/* define what you want selected */
+
+/* describe how the selected thing should look */

@@ -3,16 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>National Parks</title>
-  </head>
-  <body>
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="imageGallery.html">Image Gallery</a></li>
-    </div>
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <div class='header'>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </head>
+  <body class="body">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="imageGallery.html">Image Gallery</a>
+      </li>
+    </ul>
+
+
+    <header class='header'>
       <h1 id="main-page-title"> US National Parks </h1>
-    </div>
+    </header>
 
     <div class='intro'>
       <p>The United States has 60 protected areas known as national parks that are operated by the National Park Service, an agency of the Department of the Interior. National parks must be established by an act of the United States Congress. Criteria for the selection of national parks include natural beauty, unique geological features, unusual ecosystems, and recreational opportunities (though these criteria are not always considered together).</p>
@@ -20,11 +33,11 @@
 
     <div class='featuredPark'>
       <h2>Featured Park: The Grand Canyon</h2>
-      <button><a href="grandCanyon.html">Visit the Grand Canyon</a></button>
+      <button type="button" class="btn btn-light"><a href="grandCanyon.html">Visit the Grand Canyon</a></button>
     </div>
 
-    <div class="footer">
+    <footer class="footer">
       <p>Thanks for visiting the parks page!</p>
-    </div>
+    </footer>
   </body>
 </html>
