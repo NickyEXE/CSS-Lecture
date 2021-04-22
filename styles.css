@@ -1,0 +1,87 @@
+.body:not(nav) {
+  text-align: center;
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+  background-image: url("./images/header_img.jpg");
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro {
+  max-width: 60%;
+  min-width: 400px;
+  margin: 1em auto;
+  border: 3px black solid;
+  padding: .5em;
+  background-color: #c58272;
+  border-radius: 1em;
+}
+
+.featuredPark {
+  max-width: 40%;
+  min-width: 400px;
+  margin: 1em auto;
+  border: 3px black solid;
+  padding: .5em;
+  background-color: #c58272;
+  border-radius: 1em;
+}
+
+.featuredPark > button {
+  background-color: chartreuse;
+  margin: .5em;
+  padding: 1em 2em;
+}
+
+.featuredPark > button > a {
+  text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%
+}
+
+/* Grand Canyon */
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 3px black solid;
+  padding: 1em;
+  background-color: #c58272;
+}
+
+.grand-canyon-image {
+  float: left;
+  margin-right: 1em;
+}
+
+
+.park-info {
+  padding-top: 1em;
+  clear: both;
+}
+
+/* Image Gallery */
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+.gallery-img:hover {
+  border: 2px red solid;
+}
