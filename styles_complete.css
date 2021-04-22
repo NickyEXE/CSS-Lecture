@@ -1,72 +1,76 @@
-********************* SITE-WIDE STYLES *********************
-p {
-  font-size: 20px;
-}
-body {
+.body {
+  background-color: green;
   text-align: center;
-  background-color: whitesmoke;
-}
-
-/************************* HOME PAGE **************************/
-.navbar {
-  margin-bottom: 0px !important;
 }
 
 .header {
-  height: 400px;
-  background-image: url(./images/header_img.jpg);
+  background-image: url("./images/header_img.jpg");
   background-position: center;
   background-size: cover;
+  height: 400px;
 }
 
-#main-page-title {
+#main-page-title{
   font-family: sans-serif;
+  font-size: 6em;
   color: white;
-  font-size: 100px;
 }
 
 .intro {
-  padding: 20px;
-  border: 5px solid black;
-  margin: 100px;
-  background-color: peachpuff;
+  border: 3px solid black;
+  width: 60%;
+  margin: 1em auto;
+  padding: .5em;
+  background-color: #ca9783;
+  border-radius: .25em;
 }
 
-button {
-  padding: 20px;
+/* button {
+  background-color: hotpink;
+  padding: .25em;
+  font-size: 1em;
 }
 
 button a {
   text-decoration: none;
-  color: black;
-  font-size: 20px;
-}
-/************************** ARTICLE ***************************/
+} */
 
-.grand-canyon-image {
-  width: 400px;
-  float: left;
-}
+/* Grand Canyon HTML */
 
-.wrapper {
-  width: 960px;
+.wrapper{
+  width: 60%;
   margin: 0 auto;
-  background-color: white;
-  padding: 40px;
-  border: 5px solid black;
+  border: 3px solid black;
 }
 
-.park-info {
-  clear: both;
+.grand-canyon-image{
+  float: left;
+  width: 400px;
+  margin-right: 1em;
 }
 
-/************************ IMAGE GALLERY ***********************/
-.image-gallery {
+.park-info{
+  clear: both
+}
+
+/* Image Gallery */
+
+.image-gallery{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 1em;
 }
 
-.gallery-img {
+.gallery-img{
   width: 100%;
+  border: black 3px solid
 }
+
+.gallery-img:hover{
+  border: red 3px solid
+}
+
+
+/* define what you want selected */
+
+/* describe how the selected thing should look */
