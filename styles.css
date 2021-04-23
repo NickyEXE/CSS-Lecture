@@ -1,0 +1,112 @@
+body {
+  text-align: center;
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-image: url("./images/header_img.jpg");
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide {
+  max-width: 400px;
+}
+
+.carousel-item{
+  max-width: 100%;
+}
+
+.intro {
+  max-width: 600px;
+  margin: 1em auto;
+  border: 3px solid black;
+  padding: 1em;
+  background-color: #c47f6e;
+  border-radius: 3em;
+}
+
+button > a {
+  text-decoration: none;
+}
+
+button {
+  padding: 1em;
+  background-color: yellow;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper {
+  border: 3px black solid;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 1em;
+}
+
+main {
+  float: left;
+  margin-right: 1em;
+}
+
+footer {
+  clear: both;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 8px;
+}
+
+.gallery-img:hover {
+  border: 3px red solid;
+}
+
+
+
+
+
+/* body {
+  background-color: chartreuse;
+}
+
+.link {
+  background-color: red;
+}
+
+.navbar a {
+  background-color: chartreuse;
+}
+
+.body-class {
+  background-color: yellow;
+}
+
+.header {
+  background-color: green;
+}
+
+.header:hover {
+  background-color: red;
+} */
+
+/* #body {
+  background-color: magenta;
+} */
+
+/* elements < class < id */
+
+/* Describe what you want to style "the selector" */
